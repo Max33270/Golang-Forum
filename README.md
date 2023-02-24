@@ -7,12 +7,8 @@ Nous allons donc vous présenter toutes les fonctionnalités de ce forum dans ce
 <br>
 <br>
 ## 2) Lancement du forum
-### a) Localhost:5050
+<br>
 Pour lancer le forum, il faut rentrer la commande go run main/main.go dans le terminal et ensuite ouvrir le navigateur web au localhost 5500 en tapant "http://localhost:5500" dans la barre de recherche.
-<br>
-<br>
-### b) Serveur web
-Notre forum est également en ligne sur le net et accessible à l'adresse suivante : ...
 <br>
 <br>
 ## 3) Les fonctionnalités
