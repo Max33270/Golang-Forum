@@ -2,14 +2,10 @@
   stage: 0;
 }
   
-/* helpers/align.css */
-  
 .align {
   display: grid;
   place-items: center;
 }
-  
-/* helpers/grid.css */
   
 :root {
   --gridMaxWidth: 24em;
@@ -21,8 +17,6 @@
   margin-inline: auto;
   max-inline-size: var(--gridMaxWidth);
 }
-  
-/* helpers/icon.css */
   
 .icon {
   block-size: 1.25em;
@@ -38,8 +32,6 @@
   background-color: #e5e5e5;
   border-radius: 50%;
 }
-  
-/* layout/base.css */
   
 :root {
   --bodyBackgroundColor: #eaeaea;
@@ -70,8 +62,6 @@ body2 {
   min-block-size: 80vh ;
 }
   
-/* modules/anchor.css */
-  
 :root {
   --anchorColor: inherit;
   --anchorHoverColor: #1dabb8;
@@ -86,8 +76,6 @@ a {
 a:hover {
   color: var(--anchorHoverColor);
 }
-  
-/* modules/form.css */
   
 fieldset {
   border: none;
@@ -113,8 +101,6 @@ input[type='submit'] {
 .form input[type='password']  {
   inline-size: 100%;
 }
-  
-/* modules/login.css */
   
 :root {
   --loginBorderRadius: 0.25em;
@@ -239,7 +225,6 @@ menu button:hover {
 
 body {
   background-color: var(--bodyBackgroundColor);
-
   margin: 0;
 }
 
