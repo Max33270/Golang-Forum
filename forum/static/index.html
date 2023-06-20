@@ -23,7 +23,6 @@
         </div>
         <div class="SelectFilters">
             <button onfocus="SelectFilters()" class="button_filters">Filters</button>
-            
             <form action="/filters" method="post" class="filters" name="Category" id="filters">
                 <select name="categ">
                     <option value="None">Tout</option>
@@ -89,14 +88,9 @@
                                 <img src="forum/profil/{{.ContentPhoto}}">
                             {{end}}
                             <p class="date">{{.Date}}</p>
-
-                            
-                            <!-- <a onclick="DisplayComments(id)" id="{{.Pid}}" class="showComments">Show Comments</a> -->
                         </div>
                     </button>
                     <div id="comment{{.Pid}}" class="comment"></div>
-
-                    <!-- <div id="commentaires{{.Pid}}" class="coms"> -->
                         {{range .Comments}}
                         <button class="comments">
                             <div class="info-user-post">
@@ -113,8 +107,6 @@
                             </div>
                         </button>
                         {{end}}
-                    <!-- </div> -->
-
                 </div>
             {{end}}
         </div>
